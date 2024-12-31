@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Note</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #2A9D8F;
+            font-family: 'Poppins', sans-serif; /* Modern font */
+        }
+        .note-container {
+            background: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            max-width: 600px;
+            width: 90%;
+            text-align: center;
+            padding: 40px;
+            position: relative;
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .note-container:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+        }
+        .note-container::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: #A8DADC;
+            
+            z-index: 0;
+        }
+        .note-message {
+            font-size: 1rem;
+            color: #555;
+            line-height: 1.5;
+            z-index: 1;
+            position: relative;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .note-message span {
+            color: #e91e63;
+            font-weight: bold;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="note-container">
+        <p class="note-message">
+            Firstly,<br>
+            WISHING YOU A HAPPY NEW YEAR 2025 🎉<br>
+            MERE ULLU KE PATTHE,<br><br>
+            Tumhi sarve mazya sathi kiti khas ahat,<br>
+            he tr words madhe express nahi karu shekat mi but iktach sangu shekto ki tumhi sarv khup special aha mazya sathi.<br>
+            Aaj 2024 khatam zala ani 2025 suru zala, tumchya sobat spend kelela time mahitch nahi padla ki kasa ha 2024 khatam zala.<br>
+            Ata asa vatach nahi ahe ki purn ek year challa gela, <br>
+            but ek gosht ahe ki 2024 tr khatam zala but aplya sarvanna khup sarya memories deun jat ahe je apn kadhi aplya life madhe visarnar nahi. <br>
+            aaj apla ullu's cha bond ikta strong zala ahe, ki vatat nahi apn friends ahot manun. <br>
+            asa vatte ki apn ek family ch ahe. <br>
+            asach apla bond ankhi ankhi strong hot janar. <br>
+            hopefully apn fakt engineering prynt sobat nahi rahnar, <br>
+            ankhi samor pn apn eka meka che ullu rahnar. <br>
+            bs itkach manach hot tumchya shi ki, mi swatala khup lucky samajto ki tumhi sarve mala bhetle. <br><br>
+            Thank You mazya sobat rahnya sathi, ani nehmi mala support karnya sathi. <br>
+            Tumcha(Bhaluu......), <br>
+            Prathamesh Lonare
+    </p>
+    </div>
+</body>
+</html>
